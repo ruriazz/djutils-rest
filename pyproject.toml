@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "djutils-rest"
+version = "0.1.0"
+authors = [{ name = "ruriazz", email = "azizruri.s@gmail.com" }]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.11",
+]
+description = "Django Project Utilities - Rest API"
+keywords = ["djutils_rest"]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    
+]
+
+[tool.setuptools.packages.find]
+exclude = ["tests*", "example*"]
+
+[project.urls]
+"Homepage" = "https://github.com/ruriazz/djutils_rest"
+"Bug Tracker" = "https://github.com/ruriazz/djutils_rest/issues"
