@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "djutils-rest"
-version = "0.1.0"
+version = "0.1.0-dev"
 authors = [{ name = "ruriazz", email = "azizruri.s@gmail.com" }]
 classifiers = [
     "Operating System :: OS Independent",
